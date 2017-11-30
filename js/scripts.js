@@ -14,4 +14,7 @@ $(document).ready(function() {
     $(".tinylist,.shortlist").addClass("bg-success");
     $(".talllist").addClass("bg-warning");
   }
+  $('#all').click(function() {
+    $(this).next('ul').toggle();
+  });
 });

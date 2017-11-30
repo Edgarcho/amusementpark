@@ -1,9 +1,22 @@
+body {
+  text-align: center;
+  background-color:  #b3ffff;
+}
+.logo{
+  width: 500px;
+  height: 500px;
+}
+
 #tall,#short {
   display: none;
 }
-.sidebar{
-  float: right;
+ul,p{
+font-size: 30px;
 }
-.highlight{
-  color:red;
+.bg-warning{
+  background-color: red;
+}
+
+.alllist {
+  display: none;
 }
