@@ -1,0 +1,9 @@
+#tall,#short {
+  display: none;
+}
+.sidebar{
+  float: right;
+}
+.highlight{
+  color:red;
+}
